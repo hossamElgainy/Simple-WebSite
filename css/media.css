@@ -1,0 +1,60 @@
+/*start Media*/
+@media(max-width:767px)
+{
+   .header .slider 
+    {
+        height: 40%;
+    }
+    
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .header .slider
+    {
+	height:30%;
+    }
+    .aboutme
+    {
+	height:30%;
+    }
+    .aboutme .image img
+    {
+	height:100%;
+    }
+    .resume
+    {
+	padding-bottom:50px;
+    }
+
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+   .header .slider
+    {
+	height:50%;
+    }
+   .aboutme
+    {
+	height:45%;
+    }
+    .aboutme .image img
+    {
+	height:100%;
+    }
+}
+@media(min-width:1200px )
+{
+    .header .slider
+    {
+	height:50%;
+    }
+    .aboutme
+    {
+	height:27%;
+    }
+    .aboutme .image img
+    {
+	height:100%;
+    }
+}
+/*end Media*/
